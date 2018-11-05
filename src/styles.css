@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.moviesList {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.card {
+  width: 31%;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.list-group {
+  padding-top: 30px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
